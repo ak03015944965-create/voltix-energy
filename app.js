@@ -36,8 +36,7 @@
   window.VoltixIcon = icon;
 
   /* ---------- logo ---------- */
-  var MARK = '<svg viewBox="0 0 48 48" role="img" aria-label="Voltix Energy logo"><rect width="48" height="48" rx="11" fill="#1769FF"/><path d="M13 13l11 22" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none"/><path d="M35 13L24 35" stroke="#18C8E8" stroke-width="5" stroke-linecap="round" fill="none"/><path d="M24.5 6.5L19.5 15h3.6l-1.2 5.5 5-8.5h-3.6z" fill="#fff"/></svg>';
-
+  var MARK = '<img src="logo.png" alt="Voltix Energy logo" width="38" height="38">';
   /* ---------- config helpers ---------- */
   var digits = function (s) { return String(s || "").replace(/\D/g, ""); };
   var hasWA = function () { return digits(C.whatsappNumber).length >= 10; };
