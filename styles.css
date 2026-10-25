@@ -1,3 +1,4 @@
+```css
 /* VOLTIX ENERGY — Deep Green Design System */
 :root {
   --navy: #101827;
@@ -150,7 +151,7 @@ p { margin: 0 0 1em; }
   color: var(--green);
 }
 
-/* WhatsApp uses its recognizable green */
+/* WhatsApp */
 .btn-wa { background: #128C4A; color: #fff; }
 .btn-wa:hover { background: #0e7a3f; }
 
@@ -544,8 +545,6 @@ p { margin: 0 0 1em; }
 .faq summary::-webkit-details-marker { display: none; }
 .faq summary::after { content: "+"; font-size: 1.4rem; color: var(--green); line-height: 1; }
 .faq details[open] summary::after { content: "–"; }
-
-/* Keep FAQ spacing and typography */
 .faq details p { color: var(--muted); padding-bottom: 18px; margin: 0; }
 
 /* CTA */
@@ -660,3 +659,10 @@ input:focus,select:focus,textarea:focus {
 @media(prefers-reduced-motion:reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* FIX: Keep the homepage hero eyebrow green.
+   Overrides the inline cyan color in index.html. */
+.hero .eyebrow {
+  color: #16A34A !important;
+}
+```
