@@ -33,8 +33,13 @@
   /* Mobile only */
   @media(max-width:860px){
     .hero{background:#101827 !important;padding:0 0 48px !important}
-    .hero-mobile-img{display:block;position:relative;width:100%;height:auto}
-    .hero .hero-grid{margin-top:28px}
+    .hero-mobile-img{
+      display:block;position:relative;width:100%;height:auto;
+      -webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 100%);
+              mask-image:linear-gradient(to bottom,#000 55%,transparent 100%);
+    }
+    .hero .hero-grid{position:relative;z-index:1;margin-top:-14vw}
+    .hero h1{text-shadow:0 2px 14px rgba(16,24,39,.8)}
   }
 </style>
 
