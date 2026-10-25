@@ -12,13 +12,13 @@ window.VOLTIX_CONFIG = {
 
   // WhatsApp number in international format, digits only. Example: "923001234567"
   // While empty, WhatsApp buttons send visitors to the contact form instead (no broken links).
-  whatsappNumber: "",
+  whatsappNumber: "923161658941",
 
-  phone: "",
-  email: "",
-  address: "",
-  hours: "",                 // e.g. "Mon–Sat, 10:00 – 19:00"
-  mapEmbedUrl: "",           // Google Maps "Embed a map" src URL, once location is verified
+  phone: "03161658941",
+  email: "User@gmail.com",
+  address: "Bilal Ganj",
+  hours: "8:00 AM – 10:00 PM",                 // e.g. "Mon–Sat, 10:00 – 19:00"
+  mapEmbedUrl: "https://maps.google.com/maps?q=31.5809618,74.3017897&z=17&output=embed",           // Google Maps "Embed a map" src URL, once location is verified
 
   social: { facebook: "", instagram: "", youtube: "", tiktok: "" },
 
