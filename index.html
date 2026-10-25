@@ -25,8 +25,21 @@
 
 <main id="main">
 
-  <!-- HERO -->
+<!-- HERO -->
+<style>
+  /* Hidden on desktop, so the desktop hero is unchanged */
+  .hero-mobile-img{display:none}
+
+  /* Mobile only */
+  @media(max-width:860px){
+    .hero{background:#101827 !important;padding:0 0 48px !important}
+    .hero-mobile-img{display:block;position:relative;width:100%;height:auto}
+    .hero .hero-grid{margin-top:28px}
+  }
+</style>
+
 <section class="hero" style="background:linear-gradient(90deg,rgba(16,24,39,.92) 0%,rgba(16,24,39,.7) 55%,rgba(16,24,39,.35) 100%),url('hero.jpg') right center/cover no-repeat">
+  <img class="hero-mobile-img" src="hero.jpg" alt="Voltix Energy electric bike" fetchpriority="high">
   <div class="container hero-grid">
     <div>
       <span class="eyebrow" style="color:#16A34A">Electric mobility, Pakistan</span>
