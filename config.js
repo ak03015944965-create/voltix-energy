@@ -25,7 +25,7 @@ window.VOLTIX_CONFIG = {
   // Form delivery endpoint. Use a service such as Formspree (https://formspree.io):
   // create a form, paste its URL here, e.g. "https://formspree.io/f/xxxxxxx".
   // While empty, forms will honestly say they are not connected and offer WhatsApp instead.
-  formEndpoint: "",
+  formEndpoint: "https://formspree.io/f/maeeekpy",
 
   // Home-visit coverage. Leave [] until confirmed (the team confirms coverage manually).
   // Example once confirmed: ["Lahore", "Gujranwala"]
