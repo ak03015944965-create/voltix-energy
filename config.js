@@ -16,7 +16,7 @@ window.VOLTIX_CONFIG = {
 
   phone: "03161658941",
   email: "User@gmail.com",
-  address: "Bilal Ganj",
+  address: "Baba Saad Sultan",
   hours: "8:00 AM – 10:00 PM",                 // e.g. "Mon–Sat, 10:00 – 19:00"
   mapEmbedUrl: "https://maps.google.com/maps?q=31.5809618,74.3017897&z=17&output=embed",           // Google Maps "Embed a map" src URL, once location is verified
 
